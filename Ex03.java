@@ -85,7 +85,7 @@ public class Ex03 extends JFrame {
         panel5.add(prtCheckBox = new JCheckBox("Print to File"));
 
         panel6 = new JPanel(new FlowLayout());
-        panel6.setLayout(new GridLayout(5, 1));
+        panel6.setLayout(new GridLayout(5, 1,5,5));
         panel6.add(btnOk = new JButton("Ok"));
         panel6.add(btnCancel = new JButton("Cancel"));
         panel6.add(btnSetup = new JButton("Setup..."));
